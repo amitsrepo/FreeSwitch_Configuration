@@ -1,0 +1,7 @@
+<include>
+  <extension name="Dialout iptel custom Gateway Amit"> 
+    <condition field="destination_number" expression="^9(1\d{10})$"> 
+        <action application="bridge" data="sofia/gateway/custom/$1"/>
+       </condition> 
+  </extension> 
+</include>

@@ -1,0 +1,8 @@
+ <include>
+	<gateway name="iptel">
+	<param name="username" value="8192324"/>
+	<param name="password" value="Aplomb123"/>
+	<param name="realm" value="iptel.org"/>
+	<param name="proxy" value="sip.iptel.org"/>
+	</gateway>
+  </include>

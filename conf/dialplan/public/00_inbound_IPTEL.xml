@@ -1,0 +1,9 @@
+<include>
+  <extension name="iptel-inbound">
+   <condition field="destination_number" expression="^(8192324@iptel.org)">
+      <action application="set" data="domain_name=$${domain}"/>
+      <action application="transfer" data="1001 XML default"/>
+    </condition>
+   </extension>
+</include>
+
